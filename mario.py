@@ -3,6 +3,8 @@ while(True):
     marioHeightInt = int(marioHeight)
 
     if marioHeightInt >= 1 and marioHeightInt <= 8:
-        print("Valid height")
+        print(marioHeightInt, "Valid", end='')
+        for i in range(marioHeightInt + 1):
+            print(" "*(marioHeightInt-i),"#"*i)
     else:
-        print("Invalid height")
+        print(marioHeightInt, "Invalid")
