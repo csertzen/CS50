@@ -13,5 +13,4 @@ while(True):
         while(cents >= 25):
             cents -= 25
             print("Cents: ", cents)
-            #print("Coins: ", coins)
         
