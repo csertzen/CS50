@@ -9,7 +9,6 @@ while(True):
     floatInput = float(usrInput)
     if floatInput > 0.00:
         cents = int(floatInput * 100)
-        
         while(cents >= 25):
             cents -= 25
             print("Cents: ", cents)
